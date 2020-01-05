@@ -20,3 +20,4 @@ func Test_cashback(t *testing.T) {
 			t.Error("For cashback test:", test.name, "got:", got, "want:", test.want)
 		}
 	}
+}
